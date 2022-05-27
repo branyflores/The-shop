@@ -10,20 +10,9 @@ const App = () => {
     const { data } = await commerce.products.list();
 
     setProducts(data);
+    
   }
 
-  useEffect(() => {
-
-  }, []);
-
-  console.log(products);
-  return (
-    <div>
-      <Navbar />
-       <Products />
-
-    </div>
-  )
 }
 
 export default App;
