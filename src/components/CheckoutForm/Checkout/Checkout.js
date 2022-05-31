@@ -10,9 +10,7 @@ import useStyles from './styles';
 const steps = ['Shipping address', 'Payment details'];
 
 const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
-  const [checkoutToken, setCheckoutToken] = useState(null);
   const [activeStep, setActiveStep] = useState(0);
-  const [shippingData, setShippingData] = useState({});
   const classes = useStyles();
 
 
@@ -20,12 +18,6 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
   const backStep = () => setActiveStep((prevActiveStep) => prevActiveStep - 1);
 
  
-
-  const test = (data) => {
-    setShippingData(data);
-
-    nextStep();
-  };
 
   let Confirmation = () => (order.customer ? (
     <>
@@ -54,8 +46,8 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
   }
 
   const Form = () => (activeStep === 0
-    ? <AddressForm checkoutToken={checkoutToken} nextStep={nextStep} setShippingData={setShippingData} test={test} />
-    : <PaymentForm checkoutToken={checkoutToken} nextStep={nextStep} backStep={backStep} shippingData={shippingData} onCaptureCheckout={onCaptureCheckout} />);
+    ? <AddressForm />
+    : <PaymentForm />);
 
   return (
     <>
@@ -71,7 +63,7 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
               </Step>
             ))}
           </Stepper>
-          {activeStep === steps.length ? <Confirmation /> : checkoutToken && <Form />}
+          {activeStep === steps.length ? <Confirmation /> : <Form />}
         </Paper>
       </main>
     </>
