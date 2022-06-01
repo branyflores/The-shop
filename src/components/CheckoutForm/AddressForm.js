@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { InputLabel, Select, MenuItem, Button, Grid, Typography } from '@material-ui/core';
+import { Button, Grid, Typography } from '@material-ui/core';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Link } from 'react-router-dom';
 
-import { commerce } from '../../lib/commerce';
 import FormInput from './CustomTextField';
 
 const AddressForm = () => {
@@ -28,6 +25,9 @@ const AddressForm = () => {
                
         </form>
       </FormProvider>
+      <div>
+      <br></br><br></br><Button size="large" type="button" variant="contained" color="secondary">Proceed with Payment</Button>
+      </div>
     </>
   );
 };

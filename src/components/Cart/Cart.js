@@ -11,9 +11,9 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
     const styles = useStyles();
     const classes = styles
 
-    const EmptyCart = () => ( <Typography variant="subtitle1">No items in your Card
+    const EmptyCart = () => ( <Typography variant="subtitle1">No items in your Cart
     
-    <Link to="/" className={classes.link}>Start adding something to your Cart</Link>!
+    <Link to="/" className={classes.link}><br></br>Start adding something to your Cart</Link>! 🛍️
     
     </Typography>
  
@@ -46,7 +46,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
   return (
     <Container>
 <div className={classes.toolbar} />
-<Typography className={classes.title} variant="h4" gutterBottom>Your Shopping cart</Typography>
+<Typography className={classes.title} variant="h4" gutterBottom>Your Shopping Cart</Typography>
 
            {isEmpty ? <EmptyCart /> : <FilledCart />}
             </Container>

@@ -4,6 +4,9 @@ import { commerce } from './lib/commerce';
 import { Products, Navbar, Cart, Checkout } from './components'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
+
+
 const App = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({})
@@ -49,7 +52,7 @@ const handleEmptyCart = async () => {
   useEffect(() => {
 fetchProducts();
 fetchCart();
-  }, []);
+  }, [cart.total_items]);
 
 console.log(cart);
 
@@ -68,7 +71,7 @@ console.log(cart);
         
         />} />
         <Route exact path="/checkout" element={<Checkout checkout={Checkout}/>}/>
-
+        
     </Routes>
   </Router>
   )

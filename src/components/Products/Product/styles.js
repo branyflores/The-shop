@@ -7,13 +7,14 @@ root: {
 },
 
 media: {
+    
     height: 0,
     paddingTop: '56.25%',
 
 },
 
 cardActions: {
-
+    
     display: 'flex',
     justifyContent: 'flex-end',
 },
@@ -21,7 +22,7 @@ cardActions: {
 CardContent: {
 
     display: 'flex',
-    justifyContent: 'space=between',
+    justifyContent: 'space-between',
 },
 }));
 
