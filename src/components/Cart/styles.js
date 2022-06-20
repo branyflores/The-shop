@@ -15,6 +15,7 @@ export default makeStyles((theme) => ({
     },
   },
   checkoutButton: {
+    margin:0,
     minWidth: '150px',
     
   },

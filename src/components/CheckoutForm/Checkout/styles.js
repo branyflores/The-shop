@@ -36,8 +36,9 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(3, 0, 5),
   },
   buttons: {
+    
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-flex',
   },
   button: {
     marginTop: theme.spacing(3),

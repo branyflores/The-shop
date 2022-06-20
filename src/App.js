@@ -58,9 +58,9 @@ console.log(cart);
 
   return (
 <Router>
-    <div>
+    
       <Navbar totalItems={cart.total_items} />
-   </div>
+  
     <Routes>  
         <Route exact path="/" element={<Products products={products} onAddToCart={handleAddToCart} />}/>   
   
