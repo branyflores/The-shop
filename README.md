@@ -1,26 +1,46 @@
 # Ecommerce React Project 
 
+The Shop project is based on a real e-commerce platform, but is for learning purposes only.
+The website contains the usual features for an user to do online shopping. 
 
-The Shop is my final project for General Assembly Software Engineering Immersive Course.
-I`ve challenge myself of using react and only javaScript to style the entire project.
+--------------------------
 
-
-## Features
-
-1. Select items
-   
-2. Add Items into your shopping cart
+# Technologies Used:
 
 
-Screen Shot 2022-06-01 at 9.47.50 am.png
+* ReactJS
 
-## Project Planning
-Initally, I envisioned the project to be a full e-commerce website. However, As it progressed, it became more obviosu there would take much more than 10 days to finish the entire projrect. 
-I have then created a e-commerce (for study purpose ONLY), that will give me the chance to work on it and look for more fetures to implement, such as check out and payment process.
+* Firebase Cloud functions
 
-## Api
+* [Stripe JS](https://stripe.com/docs/stripe-js/react#element-components)
+
+* Material UI
+
+* CSS
+
+* [API] (https://commercejs.com/)
+
+* [netlify] (https://www.netlify.com/?utm_medium=paid_search&utm_source=google&utm_campaign=12755510784&utm_term=netlify)
+
+--------------------------
+ 
+ # Check it out my version of New Balance website:
+
+ [Thop Now](https://thesportshop.netlify.app/)
+
+ -------------------------
+
+ ## My Testimonial:
+
+ I created this e-commerce to put myself in the shoes of a real life front end developer. It was very exciting for me to work on a website for 7 days. I started it all from scratch, got myself involved in the Back End using an API, and the Front End, creating the styling and all functionalities, to have an online shop working in the real world.
+
+ ## Next Step:
+
+ For the following steps i will be working in making a landing page for the website, also going ahead with the payments details and delivery tools pages. 
+ I took the precaution of not deploying a full payment functionalitie for the sefety of all users, but in another hand  you can check the code for [PaymentForm] (https://github.com/branyflores/The-shop/blob/main/src/components/CheckoutForm/PaymentForm.js)
 
 
-I am using the free version of the API commerce.js @chec, which makes the website q little slow. 
-In time i find that will be necessary to find a better API, so i can have more products and add caterodies to my website.
-https://commercejs.com/ 
+
+
+
+
