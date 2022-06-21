@@ -18,9 +18,9 @@ The website contains the usual features for an user to do online shopping.
 
 * CSS
 
-[API] (https://commercejs.com/)
+[API](https://commercejs.com/)
 
-[netlify] (https://www.netlify.com/?utm_medium=paid_search&utm_source=google&utm_campaign=12755510784&utm_term=netlify)
+[netlify](https://www.netlify.com/?utm_medium=paid_search&utm_source=google&utm_campaign=12755510784&utm_term=netlify)
 
 --------------------------
  
@@ -37,7 +37,7 @@ The website contains the usual features for an user to do online shopping.
  ## Next Step:
 
  For the following steps i will be working in making a landing page for the website, also going ahead with the payments details and delivery tools pages. 
- I took the precaution of not deploying a full payment functionalitie for the sefety of all users, but in another hand  you can check the code for [PaymentForm] (https://github.com/branyflores/The-shop/blob/main/src/components/CheckoutForm/PaymentForm.js)
+ I took the precaution of not deploying a full payment functionalitie for the sefety of all users, but in another hand  you can check the code for [PaymentForm](https://github.com/branyflores/The-shop/blob/main/src/components/CheckoutForm/PaymentForm.js)
 
 
 
