@@ -18,9 +18,9 @@ The website contains the usual features for an user to do online shopping.
 
 * CSS
 
-* [API] (https://commercejs.com/)
+[API] (https://commercejs.com/)
 
-* [netlify] (https://www.netlify.com/?utm_medium=paid_search&utm_source=google&utm_campaign=12755510784&utm_term=netlify)
+[netlify] (https://www.netlify.com/?utm_medium=paid_search&utm_source=google&utm_campaign=12755510784&utm_term=netlify)
 
 --------------------------
  
